@@ -1,6 +1,6 @@
 # Teste Técnico - API de Pagamentos Nível 1
 
-Esta é uma API RESTful desenvolvida em Java com Spring Boot para gerenciar o recebimento e o processamento de pagamentos. O projeto foi construído como parte de um teste técnico.
+Esta é uma API RESTful desenvolvida em Java com Spring Boot para gerenciar o recebimento e o processamento de pagamentos.
 
 ## Tecnologias que Utilizei
 
@@ -12,7 +12,7 @@ Esta é uma API RESTful desenvolvida em Java com Spring Boot para gerenciar o re
 
 ## Regras e Lógica de Negócios
 
-A ideia da API é gerenciar entidades de Pagamento que contêm código de débito, CPF/CNPJ, método de pagamento, número do cartão (se aplicável), valor e status.
+A objetivo da API é gerenciar entidades de Pagamento que contêm código de débito, CPF/CNPJ, método de pagamento, número do cartão (se aplicável), valor e status.
 
 As seguintes lógicas de negócios foram implementadas:
 
@@ -56,9 +56,9 @@ A aplicação iniciará localmente na porta padrão (geralmente `8080`). O banco
 
 ---
 
-## 📚 Documentação da API (Swagger)
+## Sobre a Documentação da API (Swagger)
 
-A API é auto-documentada utilizando o Swagger. Após iniciar a aplicação localmente, você pode visualizar e testar todos os endpoints interativamente acessando a interface do Swagger UI pelo seu navegador:
+A API foi documentada utilizando o Swagger. Após iniciar a aplicação localmente, pode visualizar e testar todos os endpoints acessando a interface do Swagger UI no navegador:
 
 🔗 **Link do Swagger:** `http://localhost:8080/swagger-ui/index.html`
 
